@@ -1,0 +1,25 @@
+{
+  "name": "veille-node-4",
+  "version": "1.0.0",
+  "description": "Exercice #4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/SamySmillz/veille-node-4.git"
+  },
+  "keywords": [
+    "Express",
+    "for_of",
+    "for_in",
+    "route",
+    "formulaire"
+  ],
+  "author": "Samuel Célestin\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
