@@ -31,8 +31,10 @@ console.log(reponse);
 
 ////////////////////////////////////////////// Route : membres
 app.get('membres',(req,res)=> {
-
-
+fs.readFile('membres.JSON', 'utf8', function (err, data) {
+ if (err) throw err;
+ obj = JSON.parse(data);
+});
 })
 
 
@@ -41,5 +43,6 @@ var server = app.listen(8081, function () {
  var port = server.address().port
  
  console.log("Exemple l'application écoute sur http://%s:%s", host, port)
+ 
 
 })
