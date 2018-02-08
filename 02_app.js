@@ -8,7 +8,7 @@ const transforme_en_tableau = (tableau) =>{
 
 
 	
-	let nomVar = '<head><meta charset="UTF-8"><link rel="stylesheet" type="text/less" href="/less/style.less"></head><table><tr><th>Prénom</th><th>Nom de famille</th><th>Téléphone</th><th>Courriel</th><th>Id</th></tr>';
+	let nomVar = '<head><meta charset="UTF-8"><link rel="stylesheet" type="text/css" href="/css/style.css"></head><table><tr><th>Prénom</th><th>Nom de famille</th><th>Téléphone</th><th>Courriel</th><th>Id</th></tr>';
 	for(elm of tableau) {
 		nomVar += '<tr>';
 		for(p in elm) {
