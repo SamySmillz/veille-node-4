@@ -52,7 +52,7 @@ fs.appendFile('public/data/membres.txt',','+ JSON.stringify(reponse), function (
   console.log('Sauvegardé');
 });
  res.end(JSON.stringify(reponse));
- //tu sauvegardes dans le fichier membres.txt
+ //tu sauvegardes dans le fichier membres.txt 
 })
 
 app.get('/membres', (req, res) => {
