@@ -20,7 +20,7 @@ const transforme_en_tableau = (tableau) =>{
 
 	nomVar += '</table>'
 	return nomVar;
-}    
+}     
 
 app.get('/formulaire', function (req, res) {
  console.log(__dirname);
