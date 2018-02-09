@@ -18,4 +18,4 @@
      "telephone" : "514-222-9233",
      "courriel" : "lucmarcil@hotmail.com",
      "id": 3    
-   }
+   },{"prenom":"Sameul","nom":"Célesin","telephone":"5482455465","courriel":"bob@hotmail.com","id":4}
